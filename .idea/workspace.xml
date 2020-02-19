@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MultiThreadResizeCopyLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MultiThreadResizeCopyLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MultiThreadResizeCopyLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MultiThreadResizeCopyLauncher.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,26 +91,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582017796494" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582118049234">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1582121003299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582118049234" />
-    <state width="1322" height="332" key="GridCell.Tab.0.bottom" timestamp="1582120885140">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582121003299" />
+    <state width="1306" height="322" key="GridCell.Tab.0.bottom" timestamp="1582121082992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582120885140" />
-    <state width="1322" height="332" key="GridCell.Tab.0.center" timestamp="1582120885140">
+    <state width="1306" height="322" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582121082992" />
+    <state width="1306" height="322" key="GridCell.Tab.0.center" timestamp="1582121082992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582120885140" />
-    <state width="1322" height="332" key="GridCell.Tab.0.left" timestamp="1582120885140">
+    <state width="1306" height="322" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582121082992" />
+    <state width="1306" height="322" key="GridCell.Tab.0.left" timestamp="1582121082992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582120885140" />
-    <state width="1322" height="332" key="GridCell.Tab.0.right" timestamp="1582120885140">
+    <state width="1306" height="322" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582121082992" />
+    <state width="1306" height="322" key="GridCell.Tab.0.right" timestamp="1582121082992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582120885140" />
+    <state width="1306" height="322" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582121082992" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1582118050119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -140,7 +141,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MultiThreadResizeCopyLauncher.java</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

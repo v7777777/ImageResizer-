@@ -1,6 +1,5 @@
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class MultiThreadResizeCopyLauncher {

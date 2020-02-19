@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="imageResizer" />
-        <module name="imageResizer pom" />
         <module name="ImageResizer-" />
+        <module name="imageResizer pom" />
         <module name="imageResizer queue" />
+        <module name="imageResizer" />
       </profile>
     </annotationProcessing>
   </component>
