@@ -1,11 +1,12 @@
 import java.io.File;
-import java.io.IOException;
+
+
 
 public class Main
 {
     public static final int newWidth = 400;
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args)  {
         String srcFolder = "C:/Users/v.lesina/Desktop/src";
         String dstFolder = "C:/Users/v.lesina/Desktop/dst";
 

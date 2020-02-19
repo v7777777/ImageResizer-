@@ -3,30 +3,38 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.util.Queue;
 
 public class ImageResizer extends Thread {
 
-    File[] files;
+    private Queue<File> queue;
     private int newWidth;
     private String dstFolder;
     private long start;
+    String name;
 
-    public ImageResizer(File[] files, int newWidth, String dstFolder, long start) {
-        this.files = files;
+    public ImageResizer(Queue queue, int newWidth, String dstFolder, long start, String name) {
+        this.queue = queue;
         this.newWidth = newWidth;
         this.dstFolder = dstFolder;
         this.start = start;
+        this.name = name;
     }
 
     @Override
     public void run() {
+
+        for (;;) {
+
         try
         {
-            for(File file : files)
-            {
-                BufferedImage image = ImageIO.read(file);
+            File currentFile = queue.poll();
 
-                if(image == null) {continue; }
+            if (currentFile == null) { return;}
+
+             BufferedImage image = ImageIO.read(currentFile);
+
+             if(image == null) { System.out.println("cant read this image"); continue; }
 
                 double scale1 = (double) (newWidth*2) / image.getWidth();
 
@@ -50,18 +58,15 @@ public class ImageResizer extends Thread {
 
                 imageFinal = scale(image2, imageFinal, scale2, type2);
 
-
-
-                File newFile = new File(dstFolder + "/" + file.getName());
+                File newFile = new File(dstFolder + File.separator + currentFile.getName());
                 ImageIO.write(imageFinal, "jpg", newFile);
 
-            }
+                System.out.println(name + " " + " has copied file name " + currentFile.getName() + " size " +  currentFile.length()/1000 + " kb for " + (System.currentTimeMillis() - start) + "ms" );
+
+
         }
-        catch (Exception ex) { ex.printStackTrace(); }
+        catch (Exception ex) { ex.printStackTrace(); } } }
 
-        System.out.println("Duration: " + (System.currentTimeMillis() - start));
-
-    }
 
     private BufferedImage scale(BufferedImage imageStart, BufferedImage imageEnd, final double scale, final int type) {
 

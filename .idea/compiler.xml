@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="imageResizer" />
+        <module name="imageResizer pom" />
+        <module name="imageResizer queue" />
       </profile>
     </annotationProcessing>
   </component>
