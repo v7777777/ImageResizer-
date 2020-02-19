@@ -8,7 +8,7 @@ public class MultiThreadResizeCopyLauncher {
 
     public static void resizedCopyLaunch(int threadsCount, File[] files, int newWidth, String dstFolder) {
 
-        Queue<File> queue = new ConcurrentLinkedQueue<>();
+        ConcurrentLinkedQueue<File> queue = new ConcurrentLinkedQueue<>();
 
         for(File file: files) { queue.add(file);}
 

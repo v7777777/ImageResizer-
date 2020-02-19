@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="imageResizer" />
         <module name="imageResizer pom" />
+        <module name="ImageResizer-" />
         <module name="imageResizer queue" />
       </profile>
     </annotationProcessing>
